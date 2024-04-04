@@ -1,163 +1,164 @@
 {
-    "movies":[
+  "movies": [
+    {
+      "id": 1,
+      "image": "../../boweryboyd.jpeg",
+      "name": "The Bowery Boys",
+      "description": "Some quick example text to build on the card title and make up the bulk of the cards content.",
+      "genre": ["Drama", "Comedy", "Action"],
+      "totalTickets": 10,
+      "price": 100,
+      "time": "Monday - 12 jan (10:30)",
+      "availBox1": [
         {
-            "id": 1,
-            "image": "../../vite.svg",
-            "name": "The Bowery Boys",
-            "description": "Some quick example text to build on the card title and make up the bulk of the cards content.",
-            "genre": ["Drama", "Comedy", "Action"],
-            "totalTickets": 10,
-            "price": 100,
-            "time":"Monday - 12 jan (10:30)",
-            "availBox1": [
-              {
-                "seat": 1,
-                "packed": false
-              },
-              {
-                "seat": 2,
-                "packed": false
-              },
-              {
-                "seat": 3,
-                "packed": false
-              },
-              {
-                "seat": 4,
-                "packed": false
-              },
-              {
-                "seat": 5,
-                "packed": false
-              },
-              {
-                "seat": 6,
-                "packed": false
-              },
-              {
-                "seat": 7,
-                "packed": false
-              },
-              {
-                "seat": 8,
-                "packed": false
-              },
-              {
-                "seat": 9,
-                "packed": false
-              },
-              {
-                "seat": 10,
-                "packed": false
-              }]
-          },
-          {
-            "id": 2,
-            "image": "../../vite.svg",
-            "name": "The Nun",
-            "description": "Some quick example text to build on the card title and make up the bulk of the cards content.",
-            "genre": ["Thriller", "Drama"],
-            "totalTickets": 10,
-            "price": 100,
-            "time":"Tuesday - 13 jan (10:30)",
-            "availBox1": [
-              {
-                "seat": 1,
-                "packed": false
-              },
-              {
-                "seat": 2,
-                "packed": false
-              },
-              {
-                "seat": 3,
-                "packed": false
-              },
-              {
-                "seat": 4,
-                "packed": false
-              },
-              {
-                "seat": 5,
-                "packed": false
-              },
-              {
-                "seat": 6,
-                "packed": false
-              },
-              {
-                "seat": 7,
-                "packed": false
-              },
-              {
-                "seat": 8,
-                "packed": false
-              },
-              {
-                "seat": 9,
-                "packed": false
-              },
-              {
-                "seat": 10,
-                "packed": false
-              },
-              {
-                "seat": 11,
-                "packed": false
-              }
-            
-            ]
-          },
-          {
-            "id": 3,
-            "image": "../../vite.svg",
-            "name": "The Nun 2",
-            "description": "Some quick example text to build on the card title and make up the bulk of the cards content.",
-            "genre": ["Thriller", "Drama"],
-            "totalTickets": 10,
-            "price": 150,
-            "time":"Tuesday - 13 jan (17:30)",
-            "availBox1": [
-              {
-                "seat": 1,
-                "packed": false
-              },
-              {
-                "seat": 2,
-                "packed": false
-              },
-              {
-                "seat": 3,
-                "packed": false
-              },
-              {
-                "seat": 4,
-                "packed": false
-              },
-              {
-                "seat": 5,
-                "packed": false
-              },
-              {
-                "seat": 6,
-                "packed": false
-              },
-              {
-                "seat": 7,
-                "packed": false
-              },
-              {
-                "seat": 8,
-                "packed": false
-              },
-              {
-                "seat": 9,
-                "packed": false
-              },
-              {
-                "seat": 10,
-                "packed": false
-              }]
-          }
-    ]
+          "seat": 1,
+          "packed": false
+        },
+        {
+          "seat": 2,
+          "packed": false
+        },
+        {
+          "seat": 3,
+          "packed": false
+        },
+        {
+          "seat": 4,
+          "packed": false
+        },
+        {
+          "seat": 5,
+          "packed": false
+        },
+        {
+          "seat": 6,
+          "packed": false
+        },
+        {
+          "seat": 7,
+          "packed": false
+        },
+        {
+          "seat": 8,
+          "packed": false
+        },
+        {
+          "seat": 9,
+          "packed": false
+        },
+        {
+          "seat": 10,
+          "packed": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "image": "../../nun.jpeg",
+      "name": "The Nun",
+      "description": "Some quick example text to build on the card title and make up the bulk of the cards content.",
+      "genre": ["Thriller", "Drama"],
+      "totalTickets": 10,
+      "price": 100,
+      "time": "Tuesday - 13 jan (10:30)",
+      "availBox1": [
+        {
+          "seat": 1,
+          "packed": false
+        },
+        {
+          "seat": 2,
+          "packed": false
+        },
+        {
+          "seat": 3,
+          "packed": false
+        },
+        {
+          "seat": 4,
+          "packed": false
+        },
+        {
+          "seat": 5,
+          "packed": false
+        },
+        {
+          "seat": 6,
+          "packed": false
+        },
+        {
+          "seat": 7,
+          "packed": false
+        },
+        {
+          "seat": 8,
+          "packed": false
+        },
+        {
+          "seat": 9,
+          "packed": false
+        },
+        {
+          "seat": 10,
+          "packed": false
+        },
+        {
+          "seat": 11,
+          "packed": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "image": "../../nun2.jpg",
+      "name": "The Nun 2",
+      "description": "Some quick example text to build on the card title and make up the bulk of the cards content.",
+      "genre": ["Thriller", "Drama"],
+      "totalTickets": 10,
+      "price": 150,
+      "time": "Tuesday - 13 jan (17:30)",
+      "availBox1": [
+        {
+          "seat": 1,
+          "packed": false
+        },
+        {
+          "seat": 2,
+          "packed": false
+        },
+        {
+          "seat": 3,
+          "packed": false
+        },
+        {
+          "seat": 4,
+          "packed": false
+        },
+        {
+          "seat": 5,
+          "packed": false
+        },
+        {
+          "seat": 6,
+          "packed": false
+        },
+        {
+          "seat": 7,
+          "packed": false
+        },
+        {
+          "seat": 8,
+          "packed": false
+        },
+        {
+          "seat": 9,
+          "packed": false
+        },
+        {
+          "seat": 10,
+          "packed": false
+        }
+      ]
+    }
+  ]
 }
