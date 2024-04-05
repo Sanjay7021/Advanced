@@ -6,7 +6,7 @@ const Invoice = ({total,setTotal,history,moviesData}:{total:any,setTotal:any,his
     setTotal(finalCount);
 
     return (
-        <>
+        <div style={{height:'85vh'}}>
         <div style={{backgroundColor:'green',width:'10%',height:'10%',float:'right'}}>
             Total Fair: {total}
         </div>
@@ -22,7 +22,7 @@ const Invoice = ({total,setTotal,history,moviesData}:{total:any,setTotal:any,his
           </div>
           })}
         </div>
-        </>
+        </div>
     )
 }
 export default Invoice;

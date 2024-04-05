@@ -1,4 +1,5 @@
 import { useState } from "react";
+import * as emoji from 'node-emoji'
 
 const ViewTheater = ({ moviesData }: { moviesData: any }) => {
     const [ID, setId] = useState(0);
@@ -7,12 +8,13 @@ const ViewTheater = ({ moviesData }: { moviesData: any }) => {
         const { value, id, name } = e.target;
         console.log(value, id, name);
         setId(Number(value));
-        console.log(Id);
+        // console.log(Id);
         Name=name;
     }
+   
     return (
 
-        <>
+        <div style={{height:'85vh'}}>
         <div style={{ backgroundColor: 'gray', color: 'white', width: '70%', marginLeft: '300px', height: '150px', marginTop: '10px', textAlign: 'center', fontSize: '40px' }}>
         <select className="btn btn-info" onChange={getMovieName}>
                 <option value={0}>Choose Movie Name</option>
@@ -28,7 +30,7 @@ const ViewTheater = ({ moviesData }: { moviesData: any }) => {
 
             {
                 ID == 0 ?
-                    <h2 style={{ color: "white" }}>&nbsp;Check Seat Availabilty By Muvie Name</h2>
+                    <h2 style={{ color: "white" }}>&nbsp;&nbsp;Check seats availabilities by movie name</h2>
                     :
                     
                         <div style={{ display: "flex", gap: "10px", margin: "5px", justifyContent: "center" }}>
@@ -43,7 +45,6 @@ const ViewTheater = ({ moviesData }: { moviesData: any }) => {
                     // </div>
             }
 
-
             {/* 
             <div style={{backgroundColor:'gray',color:'white',width:'70%',marginLeft:'300px',height:'150px',marginTop:'10px',textAlign:'center',fontSize:'40px'}}>
                     Screen
@@ -57,7 +58,7 @@ const ViewTheater = ({ moviesData }: { moviesData: any }) => {
             })
            }
         </div> */}
-        </>
+        </div>
 
 
     )

@@ -23,6 +23,7 @@ export default function Nav() {
 
                         <Link to='/'>Home</Link>
                         <Link to='/viewMovie'>Movies</Link>
+                        <Link to='/favoriteMovies'>WishList</Link>
                         <Link to='/viewTheater'>Cinema Hall</Link>
                     </div>
 
